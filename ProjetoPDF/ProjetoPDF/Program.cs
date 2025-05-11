@@ -1,7 +1,8 @@
-﻿using System.Net.Mime;
-using QuestPDF.Fluent;
+﻿using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+
+/* Captura de texto via Console.ReadLine e geração automática de um PDF com o conteúdo digitado.*/
 
 QuestPDF.Settings.License = LicenseType.Community;
 
