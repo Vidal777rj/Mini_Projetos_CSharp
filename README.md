@@ -19,8 +19,8 @@ Cada pasta representa um projeto independente com foco em um conceito específic
 - 📦 Bibliotecas (em alguns projetos)
 
  ## ▶️ Como executar
- # Acesse uma pasta de projeto
+ - Acesse uma pasta de projeto
 cd NomeDoProjeto
 
- # Execute o projeto
+ - Execute o projeto
 #dotnet run
