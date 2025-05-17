@@ -2,6 +2,8 @@
 using calculadora.Services.Operacoes;
 using Kokuban;
 
+//Criar calculadora com adição, subtração, divisão e multiplicação utilizando classe abstrata para resolução matematica.  
+
 var calculadora = new CalculadoraService();
 
 while (true)
