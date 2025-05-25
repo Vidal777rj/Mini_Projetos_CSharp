@@ -27,9 +27,9 @@ Esta seção descreve brevemente o propósito de cada projeto presente na colet�
 
  ## ▶️ Como executar
  - Acesse uma pasta de projeto
-   cd NomeDoProjeto
-   Execute o projeto
-   dotnet run
+   - cd NomeDoProjeto
+   - Execute o projeto
+   - dotnet run
 
 
 
