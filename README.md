@@ -21,7 +21,7 @@ Cada pasta representa um projeto independente com foco em um conceito específic
 
 # 📌 Sobre os Projetos
 Esta seção descreve brevemente o propósito de cada projeto presente na coletânea:
-- **ProjetoPDF**: Converter o arquivo JSON em uma lista e exibir no console.
+- **ConvertendoJson**: Converter o arquivo JSON em uma lista e exibir no console.
 - **ProjetoPDF**: Captura de texto via Console.ReadLine e geração automática de um PDF com o conteúdo digitado.
 - **Calculadora com Operações Básicas**: Criar uma calculadora com adição, subtração, divisão e multiplicação utilizando classe abstrata para resolução matemática.
 
