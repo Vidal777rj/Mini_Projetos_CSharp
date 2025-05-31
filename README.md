@@ -24,6 +24,7 @@ Esta seção descreve brevemente o propósito de cada projeto presente na colet�
 - **ConvertendoJson**: Converter o arquivo JSON em uma lista e exibir no console.
 - **ProjetoPDF**: Captura de texto via Console.ReadLine e geração automática de um PDF com o conteúdo digitado.
 - **Calculadora com Operações Básicas**: Criar uma calculadora com adição, subtração, divisão e multiplicação utilizando classe abstrata para resolução matemática.
+- **Crud_Livros**: Cria um CRUD em memoria com Adicionar, Listar, Editar e Remover e com opção salvar em JSON os livros adicionado.
 
  ## ▶️ Como executar
  - Acesse uma pasta de projeto
