@@ -1,5 +1,5 @@
-﻿using System.Text.Json;
-using Crud_Livros;
+﻿using Crud_Livros;
+using System.Text.Json;
 
 List<Livros> livros = new List<Livros>();
 
@@ -132,6 +132,7 @@ void RemoverLivro()
 
         livros.Remove(livro);
         System.Console.WriteLine("Livro removido com sucesso");
+        ListarLivro();
     }
     catch (FormatException)
     {
@@ -146,4 +147,3 @@ void SalvarEmJSON()
 
     System.Console.WriteLine("Livro salvo com sucesso!");
 }
- 
