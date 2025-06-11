@@ -19,19 +19,15 @@ while (continuar)
     {
         case "1":
             ImprimirValores.imprimirValores();
-            continuar = false;
             break;
         case "2":
             BuscaBinaria.ExecutarBuscaBinaria();
-            continuar = false;
             break;
         case "3":
             NovaLista.novaLista();
-            continuar = false;
             break;
         case "4":
             Palindromo.palindromo("radar");
-            continuar = false;
             break;
         case "5":
             continuar = false;
