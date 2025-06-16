@@ -1,4 +1,7 @@
 
+using System.Runtime.CompilerServices;
+using Kokuban;
+
 namespace Desafios___Cientista_da_Computação_Autodidata.Class
 {
     public class BuscaBinaria
@@ -11,7 +14,7 @@ namespace Desafios___Cientista_da_Computação_Autodidata.Class
         {
             List<string> lista = new List<string>
             {
-                 "Vasco", "Flamengo", "Botafogo", "Fluminense", "Corinthias", "Palmeiras", 
+                 "Vasco", "Flamengo", "Botafogo", "Fluminense", "Corinthias", "Palmeiras",
                  "Santos", "São Paulo", "Cruzeiro", "Atletico Mineiro"
             };
             lista.Sort();
@@ -19,12 +22,12 @@ namespace Desafios___Cientista_da_Computação_Autodidata.Class
             bool encontrado = buscaBinaria(lista, stringDeBuscar);
             if (encontrado)
             {
-                System.Console.WriteLine($"{encontrado} : Algoritmo funcionando corretamente!");
+                System.Console.WriteLine(Chalk.Red + $"{encontrado} : Algoritmo funcionando corretamente!");
                 return true;
             }
             else
             {
-                Console.WriteLine("string não encontrado");
+                Console.WriteLine(Chalk.Red + "string não encontrado");
                 return false;
             }
         }

@@ -1,3 +1,5 @@
+using Kokuban;
+
 namespace Desafios___Cientista_da_Computação_Autodidata
 {
     public class NovaLista
@@ -17,7 +19,7 @@ namespace Desafios___Cientista_da_Computação_Autodidata
             List<string> resultado = stringInformadasNoLivro.Where(l => l.Length > 4).ToList();
             foreach (string str in resultado)
             {
-                System.Console.WriteLine(str);
+                System.Console.WriteLine(Chalk.Red + $"{str}");
             }
         }
     }

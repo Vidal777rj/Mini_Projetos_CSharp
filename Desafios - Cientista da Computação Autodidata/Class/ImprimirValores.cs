@@ -1,3 +1,5 @@
+using Kokuban;
+
 namespace Desafios___Cientista_da_Computação_Autodidata.Class
 {
     public class ImprimirValores
@@ -9,7 +11,7 @@ namespace Desafios___Cientista_da_Computação_Autodidata.Class
             {
                 for (int i = 1; i <= 10; i++)
                 {
-                    System.Console.WriteLine(i);
+                    System.Console.WriteLine(Chalk.Red + $"{i}");
                 }
             }
             catch (Exception ex)
