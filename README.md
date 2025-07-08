@@ -27,6 +27,7 @@ Esta seção descreve brevemente o propósito de cada projeto presente na colet�
 - **Desafios - Cientista da Computação Autodidata**: Realizar os desafios propostos no livro Cientista da Computação Autodidata. Embora os exemplos estejam em Python, executarei as soluções em C#
 - **FizzBuzz**:   Escreva um programa que exiba números de 1 a 100, se o número for multiplo de 3 exiba Fizz se o número for multiplo de 5 exiba Buzz, se o número for multiplo de 3 e de 5 exiba FizzBuzz
 - **ProjetoPDF**: Captura de texto via Console.ReadLine e geração automática de um PDF com o conteúdo digitado.
+- **To do List**: Cadastro e remoção de tarefa.
 
 
  ## ▶️ Como executar
