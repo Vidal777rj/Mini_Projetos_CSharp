@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 List<string> tarefa = new List<string>();
+
 int opcao;
 bool executando = true;
 while (executando)
@@ -15,32 +16,43 @@ while (executando)
     Console.WriteLine("3 - Visualizar tarefas");
     Console.WriteLine("4 - Encerrar programa");
 
-    if (!int.TryParse(Console.ReadLine(), out opcao))
+
+    try
     {
-        System.Console.WriteLine("Digite um número valido");
-        continue;
+        if (!int.TryParse(Console.ReadLine(), out opcao))
+        {
+            System.Console.WriteLine("Digite um número valido");
+            continue;
+        }
+
+        switch (opcao)
+        {
+            case 1:
+                AdicionarTarefa();
+                break;
+            case 2:
+                RemoverTarefa();
+                break;
+            case 3:
+                VisualizarTarefas();
+                break;
+            case 4:
+                System.Console.WriteLine("Encerrando o Programa, bye bye");
+                executando = false;
+                break;
+            default:
+                Console.WriteLine("Digite uma opção valida");
+                break;
+        }
+    }
+    catch (Exception ex)
+    {
+        System.Console.WriteLine("Erro no switch" + ex.Message);
+        return;
     }
 
-    switch (opcao)
-    {
-        case 1:
-            AdicionarTarefa();
-            break;
-        case 2:
-            RemoverTarefa();
-            break;
-        case 3:
-            VisualizarTarefas();
-            break;
-        case 4:
-            System.Console.WriteLine("Encerrando o Programa, bye bye");
-            executando = false;
-            break;
-        default:
-            Console.WriteLine("Digite uma opção valida");
-            break;
-    }
 }
+
 void AdicionarTarefa()
 {
     Console.Write("Digite a tarefa a ser adicionada: ");
