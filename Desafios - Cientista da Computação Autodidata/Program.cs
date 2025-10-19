@@ -37,6 +37,9 @@ while (continuar)
             Array_Par_ou_Impar.ExecutarBusca();
             break;
         case "6":
+            Console.WriteLine("Encerrando Programa...");
+            Thread.Sleep(2000);
+            Console.WriteLine("Tchau!");
             continuar = false;
             break;
         default:

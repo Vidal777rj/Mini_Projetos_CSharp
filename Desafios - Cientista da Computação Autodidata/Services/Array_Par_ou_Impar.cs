@@ -26,13 +26,9 @@ namespace Desafios___Cientista_da_Computação_Autodidata.Class
             foreach (int valoresArray in an_array)
             {
                 if (valoresArray % 2 == 0)
-                {
                     valoresPares.Add(valoresArray);
-                }
                 else
-                {
                     valoresImpares.Add(valoresArray);
-                }
             }
             List<int> Resultado = new List<int>();
             Resultado.AddRange(valoresPares);
