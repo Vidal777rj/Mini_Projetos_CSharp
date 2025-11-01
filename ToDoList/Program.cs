@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Globalization;
-using System.Threading;
-using System.Threading.Tasks;
+﻿
 
 List<string> tarefa = new List<string>();
 
