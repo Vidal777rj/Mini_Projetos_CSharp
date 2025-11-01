@@ -25,6 +25,7 @@ Esta seção descreve brevemente o propósito de cada projeto presente na colet�
 - **Calculadora com Operações Básicas**: Criar uma calculadora com adição, subtração, divisão e multiplicação utilizando classe abstrata para resolução matemática.
 - **Crud_Livros**: Cria um CRUD em memoria com Adicionar, Listar, Editar e Remover e com opção salvar em JSON os livros adicionado.
 - **Desafios - Cientista da Computação Autodidata**: Realizar os desafios propostos no livro Cientista da Computação Autodidata. Embora os exemplos estejam em Python, executarei as soluções em C#
+- **Trabalhando com enum**: Crie esse desafio para utilizar enum
 - **FizzBuzz**:   Escreva um programa que exiba números de 1 a 100, se o número for multiplo de 3 exiba Fizz se o número for multiplo de 5 exiba Buzz, se o número for multiplo de 3 e de 5 exiba FizzBuzz
 - **ProjetoPDF**: Captura de texto via Console.ReadLine e geração automática de um PDF com o conteúdo digitado.
 - **To do List**: Cadastro e remoção de tarefa.
