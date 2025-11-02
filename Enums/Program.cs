@@ -14,3 +14,10 @@ foreach(var livro in Livros)
 {
   System.Console.WriteLine($"Titulo: {livro.Titulo} | Genero: {livro.Genero} | Ano: {livro.AnoDePublicacao}");
 }
+
+
+Console.WriteLine("---Busca por Genero---");
+foreach(var livro in Livros.FindAll(b => b.Genero == Genre.Crimes))
+{
+  System.Console.WriteLine(livro);
+}
